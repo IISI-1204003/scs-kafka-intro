@@ -1,6 +1,7 @@
 name: scs-101 commons ci
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - 'scs-101/scs-101-commons/**'
